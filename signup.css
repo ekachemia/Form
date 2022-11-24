@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'form_font';
+    src: url(./fonts/Alexandria-Regular.eot);
+    src: url(./fonts/Alexandria-Regular.woff  ) format("woff"),
+        url(./fonts/Alexandria-Regular.woff2) format("woff2"),
+        url(./fonts/Alexandria-VariableFont_wght.ttf) format("truetype");
+}
+
+
+body {
+    padding-top: 37px;
+    font-family: 'form_font';
+    background-color: #3598dc;
+}
+
+h1 {
+    font-size: 28px;
+    color: #2e2f2f;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container {
+    width: 23%;
+    min-height: 50vh;
+    margin: auto;
+    background: white;
+    padding: 33px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #777d7d;
+}
+
+input {
+    height: 37px;
+    width: 90%;
+    margin: 15px 1% 10px 0;
+    border: none;
+    background-color: #efefef;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.small_input {
+    width: 42%;
+}
+
+#policy {
+    width: 10px;
+    font-size: 5px;
+    height: auto;
+}
+
+label {
+    font-size: 12px;
+}
+
+#button {
+    width: 45%;
+    background-color: #3598dc;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: #3598dc;
+}
+
+footer {
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.a_login{
+    color: white;
+}
